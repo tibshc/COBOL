@@ -1,0 +1,16 @@
+                       REPORTE CLASE    IST
+ID           APELLIDO     NOMBRE       CODIGO              NOTA
+ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
+-----------  -----------  -----------  ----------  ------  -----
+8912358      FORD         LAWRENCE     M19671009   IST     10.03
+9012353      JONES        VINCENT      T19680726   IST     16.89
+8812356      MACKEY       TIMOTHY      D19690918   IST     15.93
+8812357      BOBBIN       WENDY        E19701206   IST     13.84
+8812358      DALEY        FRANCIS      R19640316   IST     11.75
+8912354      FAHY         MANNIE       L19691203   IST     15.54
+8912355      RYAN         GEOFF        N19670917   IST     10.14
+9012359      SHARMA       NEHA         D19671003   IST     13.37
+8812359      SWINDON      GEORGE       L19650227   IST     18.12
+----------------------------------------------------------------
+Cantidad Estudiantes: 009
+            Promedio: 13.95

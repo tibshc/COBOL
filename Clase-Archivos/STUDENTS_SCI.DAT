@@ -1,0 +1,14 @@
+                       REPORTE CLASE    SCI
+ID           APELLIDO     NOMBRE       CODIGO              NOTA
+ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
+-----------  -----------  -----------  ----------  ------  -----
+9012355      LANGAN       ROSALLIE     R19690128   SCI     15.32
+9012351      FLOOD        MAURICIO     B19650412   SCI     19.53
+8712353      SWEENEY      STEVE        T19690905   SCI     15.57
+8712356      TANSEY       MARY         T19661212   SCI     13.48
+8912357      COFFEY       SAMUEL       D19631121   SCI     16.14
+8712358      WILSON       HANK         A19640414   SCI     10.44
+8912359      GRANT        HAILEY       S19640703   SCI     18.92
+----------------------------------------------------------------
+Cantidad Estudiantes: 007
+            Promedio: 15.62

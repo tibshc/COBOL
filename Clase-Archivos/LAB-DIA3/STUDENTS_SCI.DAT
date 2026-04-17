@@ -1,5 +1,5 @@
-                       REPORTE CLASE    SCI
-ID           APELLIDO     NOMBRE       CODIGO              NOTA
+                       REPORTECLASE     SCI
+ID           APELLIDO     NOMBRE       CODIGO           NOTA
 ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 -----------  -----------  -----------  ----------  ------  -----
 9012355      LANGAN       ROSALLIE     R19690128   SCI     15.32
@@ -10,5 +10,5 @@ ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 8712358      WILSON       HANK         A19640414   SCI     10.44
 8912359      GRANT        HAILEY       S19640703   SCI     18.92
 ----------------------------------------------------------------
-Cantidad Estudiantes: 007
-            Promedio: 15.62
+CANTIDAD ESTUDAINTES  007
+                      PROMEDIO: 27.35

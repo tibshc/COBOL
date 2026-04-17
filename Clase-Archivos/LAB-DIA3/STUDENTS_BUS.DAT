@@ -1,5 +1,5 @@
-                       REPORTE CLASE    BUS
-ID           APELLIDO     NOMBRE       CODIGO              NOTA
+                       REPORTECLASE     BUS
+ID           APELLIDO     NOMBRE       CODIGO           NOTA
 ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 -----------  -----------  -----------  ----------  ------  -----
 9012354      KINGSTON     DANA         R19670418   BUS     17.41
@@ -9,5 +9,5 @@ ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 8912352      RICHARDS     TRACY        R19681007   BUS     16.83
 9012356      MORGAN       LUKE         R19700910   BUS     17.55
 ----------------------------------------------------------------
-Cantidad Estudiantes: 006
-            Promedio: 15.01
+CANTIDAD ESTUDAINTES  006
+                      PROMEDIO: 15.01

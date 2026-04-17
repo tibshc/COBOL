@@ -1,5 +1,5 @@
-                       REPORTE CLASE    IST
-ID           APELLIDO     NOMBRE       CODIGO              NOTA
+                       REPORTECLASE     IST
+ID           APELLIDO     NOMBRE       CODIGO           NOTA
 ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 -----------  -----------  -----------  ----------  ------  -----
 8912358      FORD         LAWRENCE     M19671009   IST     10.03
@@ -12,5 +12,5 @@ ESTUDIANTE   ESTUDIANTE   ESTUDIANTE   CLASE       CLASE   FINAL
 9012359      SHARMA       NEHA         D19671003   IST     13.37
 8812359      SWINDON      GEORGE       L19650227   IST     18.12
 ----------------------------------------------------------------
-Cantidad Estudiantes: 009
-            Promedio: 13.95
+CANTIDAD ESTUDAINTES  009
+                      PROMEDIO: 15.70

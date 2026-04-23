@@ -23,7 +23,7 @@
           02 R-NOMBRE                 PIC X(10).
           02 R-CARRERA                PIC X(3).
           02 R-GENERO                 PIC X(1).
-          02 R-NOTA                   PIC 9(3)V9(2).
+          02 R-NOTA                   PIC 9(2)V9(2).
 
        FD ARCHIVO-ORDENADO.
        01 R-ORDENADO PIC X(80).
@@ -36,7 +36,7 @@
           02 NOMBRE                 PIC X(10).
           02 CARRERA                PIC X(3).
           02 GENERO                 PIC X(1).
-          02 NOTA                   PIC 9(3)V9(2).
+          02 NOTA                   PIC 9(2)V9(2).
 
        WORKING-STORAGE SECTION.
        

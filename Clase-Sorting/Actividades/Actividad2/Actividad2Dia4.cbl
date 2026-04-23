@@ -1,0 +1,21 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.  ACtividad2Dia4.
+       AUTHOR.      EHIDALGO.
+
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       SPECIAL-NAMES.
+           DECIMAL-POINT IS COMMA.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  VARIABLES.
+           05 WS-CONTADOR     PIC 9(04) VALUE ZERO.
+
+       PROCEDURE DIVISION.
+       MAIN.
+           DISPLAY "INICIO DEL PROGRAMA"
+           
+           STOP RUN.
+
+       END PROGRAM ACtividad2Dia4.

@@ -1,0 +1,40 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PRUEBA-SQL.
+
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+      * El SQLCA es indispensable para capturar errores de SQL
+           EXEC SQL INCLUDE SQLCA END-EXEC.
+
+      * Definicion de variables que usaremos para conectar
+           EXEC SQL BEGIN DECLARE SECTION END-EXEC.
+       01  USER-ID      PIC X(20) VALUE "admin".
+       01  PASSWORD     PIC X(20) VALUE "1234".
+      * Usamos localhost y el puerto 3306 que vimos en DBeaver
+       01  DB-STRING    PIC X(50) VALUE "hola@localhost:3306".
+           EXEC SQL END DECLARE SECTION END-EXEC.
+
+       PROCEDURE DIVISION.
+       MAIN-LOGIC.
+           DISPLAY "Intentando conectar a la base de datos...".
+
+      * Intentamos la conexion
+           EXEC SQL
+               CONNECT :USER-ID IDENTIFIED BY :PASSWORD USING :DB-STRING
+           END-EXEC.
+
+      * Verificamos si la conexion fue exitosa
+           IF SQLCODE = 0
+               DISPLAY "¡Conexion exitosa!"
+           ELSE
+               DISPLAY "Error de conexion. SQLCODE: " SQLCODE
+               DISPLAY "Mensaje: " SQLERRMC
+           END-IF.
+
+      * Desconectamos
+           EXEC SQL DISCONNECT CURRENT END-EXEC.
+
+           STOP RUN.

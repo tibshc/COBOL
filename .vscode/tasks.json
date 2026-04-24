@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build COBOL con SQL",
+            "type": "shell",
+            "command": "esqlc ${file} -o ${fileBasenameNoExtension}.cbl && cobc -x ${fileBasenameNoExtension}.cbl -lmysqlclient -o ${fileBasenameNoExtension}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

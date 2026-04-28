@@ -1,0 +1,22 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. practicaDia5sub.
+
+       DATA DIVISION.
+       FILE SECTION.
+
+       WORKING-STORAGE SECTION.
+       01  WS-PROMEDIO          PIC 9(2)V9(2).
+       01  WS-CONT              PIC 9.
+
+       LINKAGE SECTION.
+       01  L-GRADES.
+           02  L-GRADE          PIC 9(2)V9(2) OCCURS 4 TIMES.
+
+       PROCEDURE DIVISION USING L-GRADES.
+           INITIALIZE WS-PROMEDIO.
+           PERFORM VARYING WS-CONT FROM 1 BY 1 UNTIL WS-CONT > 3
+               COMPUTE WS-PROMEDIO = WS-PROMEDIO + L-GRADE(WS-CONT)
+           END-PERFORM.
+           COMPUTE WS-PROMEDIO = WS-PROMEDIO / 3.
+           MOVE WS-PROMEDIO TO L-GRADE(4).
+           EXIT PROGRAM.
